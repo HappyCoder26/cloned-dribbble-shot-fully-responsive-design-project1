@@ -1,0 +1,172 @@
+// Utility classes
+br {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    height: 40px;
+    padding: 30px 20px;
+}
+
+nav a {
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
+nav i {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+
+#central-part {
+    margin-top: 22px;
+    padding: 0px 50px;
+}
+
+#central-part h1 {
+    font-size: 3.6vw;
+    font-weight: 550;
+    line-height: 4.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#below-central {
+    display: flex;
+    justify-content: space-between;
+}
+
+#paragraphs {
+    padding: 0 50px;
+    margin-top: 20px;
+}
+
+#paragraphs p {
+    font-size: 1.2vw;
+    font-weight: 550;
+    color: rgb(52, 51, 51);
+    line-height: 1.7vw;
+}
+
+.right {
+    width: 25%;
+    margin-top: 20px;
+    padding: 15px 35px;
+}
+
+.elems {
+    padding: 8px 4px;
+    border-top: 1.5px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elems a {
+    font-size: 1.5vw;
+}
+
+.elems i {
+    opacity: 0;
+    font-size: 1.2vw;
+}
+
+.elems:hover i {
+    opacity: 1;
+}
+
+#bottom {
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 40%;
+    border-top: 0.5px solid black;
+    flex: 1;
+}
+
+@media (max-width:600px) {
+
+    nav {
+        gap: 15px;
+        height: 25px;
+        padding: 20px 10px;
+    }
+
+    nav a {
+        font-size: 3vw;
+        font-weight: 600;
+    }
+
+    nav i {
+        padding: 6px;
+        font-size: 3vw;
+        font-weight: 600;
+    }
+
+    #central-part {
+        margin-top: 18px;
+        padding: 0px 30px;
+    }
+
+    #central-part h1 {
+        font-size: 8.5vw;
+        font-weight: 550;
+        line-height: 9.8vw;
+    }
+
+    #below-central {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #paragraphs {
+        padding: 0 30px;
+        margin-top: 15px;
+    }
+
+    #paragraphs p {
+        font-size: 2.8vw;
+        font-weight: 550;
+        color: rgb(52, 51, 51);
+        line-height: 4vw;
+    }
+
+    .right {
+        width: 100%;
+        margin-top: 15px;
+        padding: 10px 30px;
+    }
+
+    .elems {
+        padding: 8px 4px;
+        border-top: 1.5px solid black;
+        display: flex;
+    }
+
+    .elems a {
+        font-size: 3.2vw;
+    }
+
+    .elems i {
+        opacity: 1;
+        font-size: 3.2vw;
+    }
+
+    #bottom {
+        background-position: 47% 40%;
+    }
+
+}
